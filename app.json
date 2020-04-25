@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/cal/cal",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/cal/history",
+    "pages/history",
+    "pages/morecal",
+    "pages/history/history",
+    "pages/morecal/morecal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "深蓝",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

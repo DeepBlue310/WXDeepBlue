@@ -1,0 +1,39 @@
+<!--pages/com/com.wxml-->
+<view class="container">
+  <view class="screen input" >
+    <view>{{screenData}}</view>
+  </view>
+  <view class="screen output">
+    <view>{{result}}</view>
+  </view>
+  <view class="key">
+    <view class="item blue" bindtap="clickme" id="{{id1}}">c</view>
+    <view class="item blue" bindtap="clickme" id="{{id2}}">÷</view>
+    <view class="item blue" bindtap="clickme" id="{{id3}}">×</view>
+    <view class="item blood" bindtap="clickme" id="{{id4}}">d</view>
+  </view>
+  <view class="key">
+    <view class="item black" bindtap="clickme" id="{{id5}}">7</view>
+    <view class="item black" bindtap="clickme" id="{{id6}}">8</view>
+    <view class="item black" bindtap="clickme" id="{{id7}}">9</view>
+    <view class="item orange" bindtap="clickme" id="{{id8}}">+</view>
+  </view>
+  <view class="key">
+    <view class="item black" bindtap="clickme" id="{{id9}}">4</view>
+    <view class="item black" bindtap="clickme" id="{{id10}}">5</view>
+    <view class="item black" bindtap="clickme" id="{{id11}}">6</view>
+    <view class="item orange" bindtap="clickme" id="{{id12}}">-</view>
+  </view>
+  <view class="key">
+    <view class="item black" bindtap="clickme" id="{{id13}}">1</view>
+    <view class="item black" bindtap="clickme" id="{{id14}}">2</view>
+    <view class="item black" bindtap="clickme" id="{{id15}}">3</view>
+    <view class="item orange" bindtap="MORE" id="{{id16}}">m</view>
+  </view>
+  <view class="key">
+    <view class="item black" bindtap="clickme" id="{{id17}}">.</view>
+    <view class="item black" bindtap="clickme" id="{{id18}}">0</view>
+    <view class="item black" bindtap="clickme" id="{{id19}}">=</view>
+    <view class="item orange" bindtap="HISTORY" id="{{id20}}">h</view>
+  </view>
+</view>
