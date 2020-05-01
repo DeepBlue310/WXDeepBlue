@@ -1,2 +1,7 @@
 <!--pages/history/history.wxml-->
-<text>pages/history/history.wxml</text>
+<!-- 昊 -->
+<view class ="content">
+  <block wx:for="{{logs}}">
+    <view class="item">{{item}}</view>
+  </block>
+</view>

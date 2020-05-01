@@ -1,0 +1,28 @@
+/* pages/di/di.wxss */
+/*高渊昊*/
+.page-body {
+  background-color: #F8F8F8;
+  height: 100%;
+  width: 100%;
+  font-size: 40rpx;
+  line-height: 100rpx;
+}
+.title{
+  height: 100rpx;
+  border: 1rpx;
+}
+.content{
+  border:1rpx;
+  height: 100rpx;
+  background-color: white;
+  line-height: 100rpx;
+}
+.border{
+  border: 100rpx;
+  border-color: black;
+  border-width: medium;
+}
+.sum{
+  color:gray;
+  background-color: white
+}

@@ -1,13 +1,15 @@
 {
   "pages": [
+    "pages/more/more",
     "pages/cal/cal",
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/cal/history",
-    "pages/history",
-    "pages/morecal",
     "pages/history/history",
-    "pages/morecal/morecal"
+    "pages/morecal/morecal",
+    "pages/di/di",
+    "pages/game/game",
+    "pages/map/map",
+    "pages/help/help",
+    "pages/number-conversion/number-conversion",
+    "pages/game1024/game1024"
   ],
   "window": {
     "backgroundTextStyle": "light",

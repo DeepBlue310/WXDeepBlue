@@ -1,0 +1,75 @@
+/*葛世恒*/
+
+.divmiddle_column {
+  display: flex;
+  flex-direction: column; /*主轴是垂直 从上到下*/
+  flex-wrap: nowrap; /*不换行*/
+  /*background-color: #fff;*/
+  width: 100%;
+  text-align:left;
+}
+
+.divmiddle_row {
+  display: flex;
+  flex-direction: row; /*主轴是水平，从左到右*/
+  flex-wrap: nowrap; /*不换行*/
+  /*background-color: #fff;*/
+  width: 100%;
+  text-align:left;
+}
+
+.width10 {
+  width: 10%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+
+.forinput {
+  display: flex;
+  width: 95%;
+  /*background-color: #BBFFFF;*/
+  border: 3rpx solid gray;
+  margin: 2%;
+  /*font-size: 150%;*/
+  text-align: left;
+}
+
+.forinput_noBackground_mini {
+  display: flex;
+  /*width: 95%;*/
+  border: 2rpx solid gray;
+  /*margin: 2%;*/
+  text-align: left;
+}
+
+.forbutton_mini {
+  display: flex;
+  width: 30%;
+  margin: 1%;
+  font-size: 100%;
+  text-align:center;
+}
+.forbutton_long {
+  display: flex;
+  width: 98%;
+  margin: 1%;
+  font-size: 90%;
+  text-align:center;
+}
+
+.fortextarea {
+  display: flex;
+  width: 100%;
+  height: 200rpx;
+  text-align: left;
+  border: 2rpx solid gray;
+  margin: 1%;
+}
+
+.index-hd {
+  padding: 20rpx;
+  text-align: center;
+}

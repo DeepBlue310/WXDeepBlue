@@ -1,0 +1,34 @@
+/*高渊昊*/
+/* pages/map/map.wxss */
+page{
+  height: 100%;
+  width: 100%
+}
+.page-body {
+  background-color: #F8F8F8;
+  height: 100%;
+  width: 100%;
+  font-size: 40rpx;
+  line-height: 60rpx;
+}
+.canvas{
+  width: 100%;
+  height:40%;
+  background-color: white;
+}
+.title{
+  height: 60rpx;
+  border: 1rpx;
+}
+.content{
+  border:1rpx;
+  height: 60rpx;
+  background-color: white;
+  line-height:60rpx;
+}
+.border{
+  border: 100rpx;
+  border-color: black;
+  border-width: medium;
+  background-color: rgb(148, 77, 77);
+}

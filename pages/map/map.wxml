@@ -1,0 +1,13 @@
+<!--高渊昊-->
+<!--pages/map/map.wxml-->
+<view class="page-body">
+  <view class="title">函数图像</view>
+  <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+  <view class="title">表达式</view>
+  <input class="content" auto-focus placeholder="输入类似cos(x)+ln(x)的表达式" bindblur="expression" />
+  <view class="title">开始位置</view>
+  <input class="content" type="number" placeholder="请输入初始点" bindblur="lower" />
+  <view class="title">终止位置</view>
+  <input class="content" type="number" placeholder="请输入结束点" bindblur="upper" />
+  <button class="border" bindtap="clickeme">确认</button>
+</view>

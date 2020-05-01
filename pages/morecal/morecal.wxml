@@ -1,2 +1,59 @@
 <!--pages/morecal/morecal.wxml-->
-<text>pages/morecal/morecal.wxml</text>
+<!-- 昊+恒 -->
+<view class="container">
+  <view class="screen input">
+    <view>{{screenData}}</view>
+  </view>
+  <view class="screen output">
+    <view>{{result}}</view>
+  </view>
+  <view class="key">
+    <view class="item deepblue" bindtap="clickme" id="{{id31}}">(</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id32}}">)</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id33}}">e</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id34}}">PI</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id35}}">x½</view>
+  </view>
+  <view class="key">
+    <view class="item deepblue" bindtap="clickme" id="{{id21}}">1/x</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id22}}">x!</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id23}}">×²</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id24}}">x³</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id25}}">x^y</view>
+  </view>
+  <view class="key">
+    <view class="item deepblue" bindtap="clickme" id="{{id26}}">sin</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id27}}">cos</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id28}}">tan</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id29}}">ln</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id30}}">log</view>
+  </view>
+  <view class="key">
+    <view class="item grey" bindtap="clickme" id="{{id5}}">7</view>
+    <view class="item grey" bindtap="clickme" id="{{id6}}">8</view>
+    <view class="item grey" bindtap="clickme" id="{{id7}}">9</view>
+    <view class="item red" bindtap="clickme" id="{{id1}}">c</view>
+    <view class="item red" bindtap="clickme" id="{{id4}}">d</view>
+  </view>
+  <view class="key">
+    <view class="item grey" bindtap="clickme" id="{{id9}}">4</view>
+    <view class="item grey" bindtap="clickme" id="{{id10}}">5</view>
+    <view class="item grey" bindtap="clickme" id="{{id11}}">6</view>
+    <view class="item orange" bindtap="clickme" id="{{id3}}">×</view>
+    <view class="item orange" bindtap="clickme" id="{{id2}}">÷</view>
+  </view>
+  <view class="key">
+    <view class="item grey" bindtap="clickme" id="{{id13}}">1</view>
+    <view class="item grey" bindtap="clickme" id="{{id14}}">2</view>
+    <view class="item grey" bindtap="clickme" id="{{id15}}">3</view>
+    <view class="item orange" bindtap="clickme" id="{{id8}}">+</view>
+    <view class="item orange" bindtap="clickme" id="{{id12}}">-</view>
+  </view>
+  <view class="key">
+    <view class="item grey" bindtap="clickme" id="{{id17}}">.</view>
+    <view class="item grey" bindtap="clickme" id="{{id18}}">0</view>
+    <view class="item grey" bindtap="clickme" id="{{id19}}">=</view>
+    <view class="item orange" bindtap="more" id="{{id16}}">m</view>
+    <view class="item orange" bindtap="history" id="{{id20}}">h</view>
+  </view>
+</view>

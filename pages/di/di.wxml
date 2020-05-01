@@ -1,0 +1,15 @@
+<!--高渊昊-->
+<!--pages/di/di.wxml-->
+<view class="page-body">
+  <view class="title">表达式</view>
+  <input class="content" auto-focus placeholder="输入类似cos(x)+ln(x)的表达式" bindblur="expression"/>
+  <view class="title">积分下限</view>
+  <input class="content" type="number" placeholder="请输入积分下限" bindblur="lower" />
+  <view class="title">积分上限</view>
+  <input class="content" type="number" placeholder="请输入积分上限" bindblur="upper"/>
+  <view class="title">计算结果</view>
+  <view class="sum" >{{sum}}</view>
+  <view class="content">
+    <button class="border" bindtap="clickeme">确认</button>
+  </view>
+</view>

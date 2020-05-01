@@ -1,4 +1,6 @@
 <!--pages/com/com.wxml-->
+
+<!-- 昊+恒 -->
 <view class="container">
   <view class="screen input" >
     <view>{{screenData}}</view>
@@ -7,33 +9,37 @@
     <view>{{result}}</view>
   </view>
   <view class="key">
-    <view class="item blue" bindtap="clickme" id="{{id1}}">c</view>
-    <view class="item blue" bindtap="clickme" id="{{id2}}">÷</view>
-    <view class="item blue" bindtap="clickme" id="{{id3}}">×</view>
-    <view class="item blood" bindtap="clickme" id="{{id4}}">d</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id1}}">c</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id2}}">÷</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id3}}">×</view>
+    <view class="item red" bindtap="clickme" id="{{id4}}">d</view>
   </view>
   <view class="key">
-    <view class="item black" bindtap="clickme" id="{{id5}}">7</view>
-    <view class="item black" bindtap="clickme" id="{{id6}}">8</view>
-    <view class="item black" bindtap="clickme" id="{{id7}}">9</view>
-    <view class="item orange" bindtap="clickme" id="{{id8}}">+</view>
+    <view class="item grey" bindtap="clickme" id="{{id5}}">7</view>
+    <view class="item grey" bindtap="clickme" id="{{id6}}">8</view>
+    <view class="item grey" bindtap="clickme" id="{{id7}}">9</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id8}}">+</view>
   </view>
   <view class="key">
-    <view class="item black" bindtap="clickme" id="{{id9}}">4</view>
-    <view class="item black" bindtap="clickme" id="{{id10}}">5</view>
-    <view class="item black" bindtap="clickme" id="{{id11}}">6</view>
-    <view class="item orange" bindtap="clickme" id="{{id12}}">-</view>
+    <view class="item grey" bindtap="clickme" id="{{id9}}">4</view>
+    <view class="item grey" bindtap="clickme" id="{{id10}}">5</view>
+    <view class="item grey" bindtap="clickme" id="{{id11}}">6</view>
+    <view class="item deepblue" bindtap="clickme" id="{{id12}}">-</view>
   </view>
   <view class="key">
-    <view class="item black" bindtap="clickme" id="{{id13}}">1</view>
-    <view class="item black" bindtap="clickme" id="{{id14}}">2</view>
-    <view class="item black" bindtap="clickme" id="{{id15}}">3</view>
-    <view class="item orange" bindtap="MORE" id="{{id16}}">m</view>
+    <view class="item grey" bindtap="clickme" id="{{id13}}">1</view>
+    <view class="item grey" bindtap="clickme" id="{{id14}}">2</view>
+    <view class="item grey" bindtap="clickme" id="{{id15}}">3</view>
+    <!-- <image src="../assets/img/a.jpg" class="img-style" animation="{{animCollect}}" bindtap="more"></image>
+    <image src="../assets/img/b.jpg" class="img-style" animation="{{animTranspond}}" bindtap="number_conversion"></image>
+    <image src="../assets/img/c.jpg" class="img-style" animation="{{animInput}}" bindtap="history"></image> -->
+    <!-- <image src="../assets/img/add.jpg" class="img-plus-style" animation="{{animPlus}}" catchtap="_moreBtn"></image> -->
+    <view class="item deepblue" bindtap="more" id="{{id16}}">more</view>
   </view>
   <view class="key">
-    <view class="item black" bindtap="clickme" id="{{id17}}">.</view>
-    <view class="item black" bindtap="clickme" id="{{id18}}">0</view>
-    <view class="item black" bindtap="clickme" id="{{id19}}">=</view>
-    <view class="item orange" bindtap="HISTORY" id="{{id20}}">h</view>
+    <view class="item grey " bindtap="clickme" id="{{id17}}">.</view>
+    <view class="item grey " bindtap="clickme" id="{{id18}}">0</view>
+    <view class="item grey " bindtap="clickme" id="{{id19}}">=</view>
+    <view class="item deepblue " bindtap="history" id="{{id20}}">hist</view>
   </view>
 </view>
